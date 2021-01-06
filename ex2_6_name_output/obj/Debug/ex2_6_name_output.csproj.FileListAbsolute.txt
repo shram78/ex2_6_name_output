@@ -1,0 +1,7 @@
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\bin\Debug\ex2_6_name_output.exe.config
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\bin\Debug\ex2_6_name_output.exe
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\bin\Debug\ex2_6_name_output.pdb
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\obj\Debug\ex2_6_name_output.csprojAssemblyReference.cache
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\obj\Debug\ex2_6_name_output.csproj.CoreCompileInputs.cache
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\obj\Debug\ex2_6_name_output.exe
+D:\iJunior\ex2\ex2_6_name_output\ex2_6_name_output\obj\Debug\ex2_6_name_output.pdb
