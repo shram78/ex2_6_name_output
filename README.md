@@ -1,0 +1,1 @@
+ex2_6_name_output
