@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-/*Вывести имя в прямоугольник из символа, который введет сам пользователь.
-Вы запрашиваете имя, после запрашиваете символ, а после отрисовываете в консоль его имя в прямоугольнике из его символов.*/
 namespace ex2_6_name_output
 {
     class Program
@@ -12,30 +6,27 @@ namespace ex2_6_name_output
         static void Main(string[] args)
         {
             string inputName;
-            string inputSymbol;
+            char inputSymbol;
             int lettersInName;
-
             Console.WriteLine("Введи своё имя");
             inputName = Console.ReadLine();
-            lettersInName = (inputName.Length) + 2; // определяю колво символов в введенном имени,плюс два перед и после
-
+            lettersInName = (inputName.Length) + 2;
             Console.WriteLine("Введи символ");
-            inputSymbol = Console.ReadLine();
+            inputSymbol = Convert.ToChar(Console.ReadLine());
             Console.Clear();
-            //отрисовка первой строки
-            for (int i = 0; i < lettersInName; i++)
+            for (int i = 0; i < 3; i++)
             {
-                Console.Write(inputSymbol);
+                if (i == 0 || i == 2)
+                    for (int j = 0; j < lettersInName; j++)
+                    {
+                        Console.Write(inputSymbol);
+                    }
+                else
+                {
+                    Console.WriteLine("\n" + inputSymbol + inputName + inputSymbol);
+                }
             }
-            Console.WriteLine();
-            //отрисовка второй строки
-            Console.WriteLine(inputSymbol + inputName + inputSymbol);
-            //отрисовка третьей строки
-            for (int i = 0; i < lettersInName; i++)
-            {
-                Console.Write(inputSymbol);
-            }
-            Console.ReadKey();
+            Console.ReadKey();// переделал
         }
     }
 }
